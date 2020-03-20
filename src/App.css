@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+.btn-space {
+  margin-right: 5px;
+}
+
+h1 a:hover {
+  color: gray !important;
+}
