@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import Timer from "./Components/Timer";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 class App extends Component {
   render() {
@@ -33,6 +34,8 @@ class App extends Component {
             <Timer duration="10" title="longue pause" />
           </div>
         </div>
+
+        <Footer />
       </>
     );
   }
